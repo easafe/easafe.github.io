@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />        
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
+        <title>Asafe Ribeiro</title>
+        <meta name="author" content="Asafe Ribeiro"/>                                 
+        <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" lazyload>
+    </head>
+    <body>        
+        <div class="content">
+            <div class="small">
+                <div class="name title">
+                    <a href="/" >ASAFE RIBEIRO</a>
+                </div>     
+                <div class="profession">Software Developer</div>
+                <ul class="info">
+                    <li> <a href="https://www.google.com.br/maps/place/Sao+Jose+de+Rio+Preto+-+State+of+S%C3%A3o+Paulo/@-20.8168139,-49.3823555,12z/data=!3m1!4b1!4m2!3m1!1s0x94bdad614c2df789:0x8f2fb0f070642c09?hl=en"><i class="fa fa-home"></i>&nbsp;sp, brazil</a></li>
+                    <li> <a href="https://github.com/asafeh/"><i class="fa fa-github"></i>&nbsp;github</a> </li>    
+                    <li> <a href="mailto:azafeh@azafeh.com"><i class="fa fa-envelope"></i>&nbsp;email</a> </li>   
+                </ul>
+            </div>    
+            <div class="large">  
+                    <div class="title">
+                        <!--span so we can use display table cell... -->
+                        <span>
+                            <a class="fake-a">showing tag</a>
+                            <a>{{ page.tag }}</a>
+                        </span>
+                    </div>
+                    {% if site.tags[page.tag] %}
+                        <ul class="post-list">   
+                            {% for post in site.tags[page.tag] %}
+                                <li>
+                                    <a href="{{ post.url }}/">{{ post.title }}</a>
+                                 </li>   
+                            {% endfor %}
+                        </ul>    
+                    {% endif %}                    
+                    <div class="title">
+                        <br> 
+                        <a href="/" > back to index</a> 
+                    </div>                   
+            </div>            
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
+        <title>Asafe Ribeiro</title>
+        <meta name="author" content="Asafe Ribeiro"/>
+        <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" lazyload>
+    </head>
+    <body>
+        <div class="content">
+            <div class="small">
+                <div class="name">
+                    <a href="/">ASAFE RIBEIRO</a>
+                </div>
+                <div class="profession">Software Developer</div>
+                <ul class="info">
+                    <li> <a href="#"><i class="fa fa-home"></i>&nbsp;sp, brazil</a></li>
+                    <li> <a href="https://github.com/asafeh/"><i class="fa fa-github"></i>&nbsp;github</a> </li>
+                    <li> <a href="mailto:azafeh@azafeh.com"><i class="fa fa-envelope"></i>&nbsp;email</a> </li>
+                </ul>
+            </div>
+            <div class="large">
+                {% if page.url == '/' %}
+                    <div class="title">
+                        <!--span so we can use display table cell...-->
+                        <span>
+                            <a class="fake-a">tags&nbsp;</a>
+                            {% for data_tag in site.data.tags %}
+                                <a href="/tag/{{ data_tag.slug }}">{{ data_tag.name }}</a>
+                                {% if forloop.last == false %}
+                                    <a class="fake-a"> &middot;</a>
+                                {% endif %}
+                            {% endfor %}
+                        </span>
+                    </div>
+                    {{ content }}
+                {% else %}
+                    <div class="title">
+                      <span>
+                           <a href="{{ page.url }}">{{ page.title }}</a>
+                      </span>
+                    </div>
+                    <div class="post">
+                       {{ content }}
+                       {% comment %}
+                            http://www.minddust.com/post/tags-and-categories-on-github-pages/
+                        {% endcomment %}
+                        {% if page.tags.size > 0 %}
+                            tagged as
+                            {% for post_tag in page.tags %}
+                                {% for data_tag in site.data.tags %}
+                                    {% if data_tag.slug == post_tag %}
+                                        {% assign tag = data_tag %}
+                                    {% endif %}
+                                {% endfor %}
+                                {% if tag %}
+                                    <a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a>
+                                    {% if forloop.last == false %}
+                                        &middot;
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="title">
+                        <a href="/" > back to index</a>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
