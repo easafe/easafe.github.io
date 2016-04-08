@@ -1,6 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
+
+<head>
+    <title>InsightHack</title>
+    <link rel=stylesheet href=https://rawgit.com/asafeh/insight-hack/master/css/game.css>
+    <script data-main=http://rawgit.com/asafeh/insight-hack/master/js/insight-hack.js src=http://cdn.rawgit.com/asafeh/insight-hack/master/js/require.min.js type=text/javascript></script>
+</head>
+
 <body>
-<iframe src="https://github.com/asafeh/insight-hack/blob/master/game.html" seamless allow-scripts>
+    <div id=container>
+        <div id=log>
+            <div id=message></div>
+        </div>
+        <div id=stats>
+            <div id=logo><b>InsightHack</b></div>
+            <div id=start-game class=not-shown>
+                <div id=first-question>
+                    It seems you know nothing about anything.
+                    <br /> Can you recall your name?
+                    <br/>
+                    <input id=player-name maxlength=20/>
+                </div>
+                <div id=second-question class=not-shown>
+                    Ok, <span id=s-player-name></span>. Try to recall your two main characteristics and your race.
+                    <br/> For example: short, ugly, human
+                    <br/>
+                    <input id=player-chars placeholder="comma separated" maxlength=36/>
+                </div>
+                <div id=third-question class=not-shown>
+                    What's your age?
+                    <br/>
+                    <input id=player-age placeholder="numbers only" maxlength=3/>
+                </div>
+                <div id=forth-question class=not-shown>
+                    What's your sex?
+                    <br/>
+                    <input id=player-sex placeholder=m/f/t maxlength=1/>
+                </div>
+                <div>
+                    <i class=hidden id=hint>press enter to continue</i>
+                </div>
+            </div>
+            <div id=player-stats class=not-shown>
+                <div id=player-display></div>
+                <div id=hp-display></div>
+                <div id=stats-display></div>
+                <div id=level-display></div>
+                <a id=help><b>help</b></a>
+            </div>
+        </div>
+        <div id=insight></div>
+    </div>
 </body>
+
 </html>
