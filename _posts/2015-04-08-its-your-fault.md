@@ -4,7 +4,7 @@ title: It's your fault
 tags: [rant]
 ---
 
-One of the most empowering things that can be said is: "it's my fault". 
+One of the most empowering things that can be said is: "it's my fault".
 
 The true helpless situations are those where it is nobody's fault: the loss of someone close, terminal diseases, catastrophes, etc. Those are things that can't be changed no matter we do. However, our tendency is to also give up personal agency in front of problems that actually _could_ be changed- and say they are somebody else's fault. Personal responsibility is never comfortable. We don't like to see ourselves short of what we want- things being our fault. So we blame society, the will of God, genetics, family, etc for why we haven't achieved or become as we'd wish when the truth is that we haven't put forth the required effort or, even worse, didn't even try because we _knew_ we couldn't. How many times have you heard: "why is life unfair?", "why I am not like x person", "I don't have talent for this"?
 
