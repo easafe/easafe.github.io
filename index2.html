@@ -4,7 +4,10 @@ layout: default2
 
 {% for post in site.posts %}
 
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    {{ post.excerpt }}
+    <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+    <div class="post">
+        {{ post.excerpt }}<a class="more" href="{{ post.url }}">continue reading</a>
+    </div>
+
 
 {% endfor %}
