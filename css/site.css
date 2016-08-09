@@ -1,177 +1,109 @@
-/*1*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-     margin: 0;
-     padding: 0;
-     border: 0;
-     font: inherit;
-     font-size: 100%;
-     vertical-align: baseline;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-q, blockquote {
-    quotes: none;
-}
+@import url("https://fonts.googleapis.com/css?family=Rajdhani");
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/*2*/
-html {
-    background-color: #fafafa;
-    width: 100%;
-    font-family: Arial ;
-    font-size: 16px;
-    line-height: 1.8em;
-    color: #333;
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size:18px;
+  color:#222;
+  line-height: 1.5;
+  font-family: 'Rajdhani';
+  -webkit-font-smoothing: antialiased;
 }
 
-.post {
-    line-height: 1.6em;
-    font-size: 1.2em;
-    margin: 15px 0px;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-     text-size-adjust: 100%;
-}
-
-div, body {
-    width: 100%;
-    float: left;
-}
-
-em, i {
-    font-style: italic;
-}
-
-a{
-    text-decoration: none;
-    font-variant: small-caps;
-    font-size:1.2em;
-    color: #333;
-    font-family:Georgia;
+a {
+  color:#222;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #459eca;
+  opacity: 0.6;
 }
 
-ul li {
-    list-style: none;
+.page {
+min-height: 100%;
+  margin: 0 auto -40px auto;
+  width: 80%;
 }
 
-/*3*/
-.content {
-    width: 80%;
-    margin:3% 10%;
+footer, .page:after {
+  height: 40px;
 }
 
-.small{
-    width: 30%;
-    margin-right: 5%;
+.page:after {
+  content: "";
+  display: block;
+}
+/*flexbox, bitches*/
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 75px 0;
+  font-family: 'Rajdhani';
 }
 
-.large {
-    width: 65%;
+.menu{
+  font-size: 1.1em;
 }
 
-.name, .title {
-    height: 3.2em;
+.menu li {
+  display: inline;
+  padding-right:15px;
+
 }
 
-.name a{
-    line-height: 1.7em;
-    letter-spacing: 1px;
-    font-size:1.9em;
-    display: inline-block;
+.logo {
+  font-size: 1.3em;
 }
 
-.title{
-    display: table;
+.title {
+  display: inline-block;
+  font-size: 1.4em;
+  padding-bottom: 10px;
 }
 
-.title span {
-  display: table-cell;
+.logo, .title {
+  font-weight: bold;
 }
 
-.title a, .title span {
-    font-variant: normal;
-    vertical-align: middle;
+.post {
+  margin: 5px 0px 20px 0px;
+  text-align: justify;
 }
 
-.title a {
-  color: #459eca;
+.post a{
+  text-decoration: underline;
 }
 
-.info, .profession {
-    font-size:1.2em
+.more {
+  font-style: italic;
+  text-decoration: none !important;
 }
 
-.profession{
-    line-height: 1.8em;
-    font-family: Georgia;
+footer {
+  text-align: center;
+  background: #222;
+  color:white;
+  display: flex;
 }
 
-.fa {
-    font-size: 0.5em !important;
+footer a{  color:white;}
+
+footer div{
+  margin: auto;
 }
 
-/* who wants to go down the rabbit hole? */
-.fake-a {
-  color: #333 !important;
+.tags {
+  margin-right: 10px;
 }
 
-@media only screen and (min-width: 1700px){
-    .small{
-        width: 20%;
-        margin-right:5%;
-    }
-    .large {
-       width: 75%;
-    }
-}
-
-@media only screen and (max-device-width: 800px){
-    .content {
-        margin: 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    .small, .large {
-        width: 100%;
-        margin: 0;
-    }
-
-    .post {
-        text-align: left;
-        padding: 5px;
-        line-height: 1.7em;
-    }
-
-    .info li {
-        display: inline;
-        padding-right:5px;
-    }
-}
-
-.post-list {
-    text-transform: lowercase;
-}
-
-/*4*/
 .post a {
-    color: #459eca;
-    font-variant: normal;
-    font-size: inherit;
-    font-family: Arial ;
+    text-decoration: none;
 }
 
 .post strong {
@@ -190,7 +122,7 @@ ul li {
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #459eca;
+  border-bottom: 1px solid #222;
 }
 
 .post hr:before {
@@ -256,7 +188,7 @@ ul li {
   height: 4px;
   padding: 0;
   margin: 16px 0;
-  background-color: #459eca;
+  background-color: #222;
   border: 0 none;
 }
 
@@ -297,7 +229,7 @@ ul li {
 .post blockquote {
   padding: 0 15px;
   color: #777;
-  border-left: 1px solid #459eca;
+  border-left: 1px solid #222;
 }
 
 .post blockquote>:first-child {
@@ -323,12 +255,12 @@ ul li {
 .post table th,
 .post table td {
   padding: 6px 13px;
-  border: 1px solid #459eca;
+  border: 1px solid #222;
 }
 
 .post table tr {
   background-color: #fff;
-  border-top: 1px solid #459eca;
+  border-top: 1px solid #222;
 }
 
 .post table tr:nth-child(2n) {

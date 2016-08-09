@@ -1,75 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
-        <title>Asafe Ribeiro</title>
-        <meta name="author" content="Asafe Ribeiro"/>
-        <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" lazyload>
-    </head>
-    <body>
-        <div class="content">
-            <div class="small">
-                <div class="name">
-                    <a href="/">ASAFE RIBEIRO</a>
-                </div>
-                <div class="profession">Software Developer</div>
-                <ul class="info">
-                    <li> <a href="#"><i class="fa fa-home"></i>&nbsp;sp, brazil</a></li>
-                    <li> <a href="https://github.com/azafeh/"><i class="fa fa-github"></i>&nbsp;github</a> </li>
-                    <li> <a href="mailto:azafeh@azafeh.com"><i class="fa fa-envelope"></i>&nbsp;email</a> </li>
-                    <li> <a href="insight-hack"><i class="fa fa-gamepad"></i>&nbsp;insighthack</a> </li>
-                </ul>
-            </div>
-            <div class="large">
-                {% if page.url == '/' %}
-                    <div class="title">
-                        <!--span so we can use display table cell...-->
-                        <span>
-                            <a class="fake-a">tags&nbsp;</a>
-                            {% for data_tag in site.data.tags %}
-                                <a href="/tag/{{ data_tag.slug }}">{{ data_tag.name }}</a>
-                                {% if forloop.last == false %}
-                                    <a class="fake-a"> &middot;</a>
-                                {% endif %}
-                            {% endfor %}
-                        </span>
-                    </div>
-                    {{ content }}
-                {% else %}
-                    <div class="title">
-                      <span>
-                           <a href="{{ page.url }}">{{ page.title }}</a>
-                      </span>
-                    </div>
-                    <div class="post">
-                       {{ content }}
-                       {% comment %}
-                            http://www.minddust.com/post/tags-and-categories-on-github-pages/
-                        {% endcomment %}
-                        {% if page.tags.size > 0 %}
-                            tagged as
-                            {% for post_tag in page.tags %}
-                                {% for data_tag in site.data.tags %}
-                                    {% if data_tag.slug == post_tag %}
-                                        {% assign tag = data_tag %}
-                                    {% endif %}
-                                {% endfor %}
-                                {% if tag %}
-                                    <a href="/tag/{{ tag.slug }}/">{{ tag.name }}</a>
-                                    {% if forloop.last == false %}
-                                        &middot;
-                                    {% endif %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endif %}
-                    </div>
-                    <div class="title">
-                        <a href="/" > back to index</a>
-                    </div>
-                {% endif %}
-            </div>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
+    <title>Asafe Ribeiro</title>
+    <meta name="author" content="Asafe Ribeiro" />
+    <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="page">
+        <header class="page-header">
+            <ul class="menu">
+                <li>
+                    <a href="https://github.com/azafeh">github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/azafeh">twitter</a>
+                </li>
+                <li>
+                    <a href="mailto:azafeh@azafeh.com">email</a>
+                </li>
+                <li>
+                    <a href="http://readnext.xyz">readnext</a>
+                </li>
+                <li>
+                    <a href="insight-hack.html">insight-hack</a>
+                </li>
+            </ul>
+            <span class="logo"><a href="/">Asafe Ribeiro</a></span>
+        </header>
+        <article class="post">
+            <a class="title" href="{{ page.url }}">{{ page.title }}</a>
+            {{ content }}
+        </article>
+    </div>
+    <footer>
+        <div>
+            <span class="tags">{% for data_tag in site.data.tags %}
+                <a href="/tag/{{ data_tag.slug }}">#{{ data_tag.name }}</a> {% endfor %}
+             </span>
+             &copy; A Safe Industries
         </div>
-    </body>
+    </footer>
+</body>
+
 </html>
