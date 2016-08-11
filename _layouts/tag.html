@@ -1,58 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
-    <title>Asafe Ribeiro</title>
-    <meta name="author" content="Asafe Ribeiro" />
-    <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
-</head>
-
-<body>
-    <div class="page">
-        <header class="page-header">
-            <ul class="menu">
-                <li>
-                    <a href="https://github.com/azafeh">github</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/azafeh">twitter</a>
-                </li>
-                <li>
-                    <a href="mailto:azafeh@azafeh.com">email</a>
-                </li>
-                <li>
-                    <a>readnext</a>
-                </li>
-                <li>
-                    <a>insight-hack</a>
-                </li>
-            </ul>
-            <span class="logo"><a href="/">Asafe Ribeiro</a></span>
-        </header>
-        <article class="post">
+{% include top.html %}
 {% if site.tags[page.tag] %}
-                {% for post in site.tags[page.tag] %}
+                {% for tag in site.tags[page.tag] %}
 
-                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+                <a class="title" href="{{ tag.url }}">{{ tag.title }}</a>
                 <div class="post">
-                    {{ post.excerpt }}<a class="more" href="{{ post.url }}">continue reading</a>
+                    {{ tag.excerpt }}<a class="more" href="{{ tag.url }}">continue reading</a>
                 </div>
 
 
             {% endfor %}
 {% endif %}
-        </article>
-    </div>
-    <footer>
-        <div>
-            <span class="tags">{% for data_tag in site.data.tags %}
-                <a href="/tag/{{ data_tag.slug }}">#{{ data_tag.name }}</a> {% endfor %}
-             </span>
-             &copy; A Safe Industries
-        </div>
-    </footer>
-</body>
-
-</html>
+        {% include bottom.html %}
