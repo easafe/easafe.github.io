@@ -50,14 +50,6 @@ footer, .page:after {
 .logo {
     font-size: 1.3em;
 }
-@media (max-width: 800px) {
-    .page-header {
-        flex-flow: column nowrap;
-    }
-    .logo {
-        order: -1;
-    }
-}
 .title {
     display: inline-block;
     font-size: 1.4em;
@@ -254,4 +246,16 @@ footer div {
 .post cite {
     display: block;
     color: #333;
+
+}
+
+@media (max-width: 800px) {
+    .page-header {
+        flex-flow: column nowrap;
+    }
+    .logo {
+        order: -1;
+    }
+
+    footer {height: auto}
 }
