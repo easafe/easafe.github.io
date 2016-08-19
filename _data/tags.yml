@@ -1,8 +1,11 @@
 - slug: rambling
-  name: rambling  
-  
+  name: rambling
+
 - slug: rant
-  name: rant    
-  
+  name: rant
+
 - slug: religion
-  name: religion  
+  name: religion
+
+- slug: cs
+  name: cs
