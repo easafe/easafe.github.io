@@ -74,7 +74,7 @@ Even if we concede that something as vague as "absolute truth" exists, it is sti
 
 > Are you absolutely sure that absolutes do not exist?
 
-> Is it true that not truth exists?
+> Is it true that no truth exists?
 
 That is, the entire dismissal of agnosticism- or any other kind of doubt of the author's beliefs- hangs on a rhetorical trick. In the event someone says "there are no absolutes", it is most likely meant to be a generalization, not a categorical affirmation. The sentence could easily be changed to "I don't see evidence for absolute truths". This, and likewise misfits of language, are only exploited in lazy, distracting argumentation.
 
