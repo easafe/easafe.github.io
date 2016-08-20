@@ -90,7 +90,7 @@ However, let's not delve into how we have to assume reality and a ability to rea
 >
 >The conclusion is that you can use reason and logic in matters of religion. That being the case, pluralism (the belief that all truth claims are equally true and valid) is ruled out because it is illogical and contradictory to believe that diametrically opposing truth claims can both be right.
 
-At least, this time, it makes some sense. We can, and should, use logic in matters of religion. However, again, the author fails to show how logic dispels only some religions as opposed to any.
+At least, this time, it makes some sense. We can, and should, use logic in matters of religion. Well, there's this entire this entire thing called Philosophy of Religion. However, again, the author fails to show how logic dispels only some religions as opposed to any.
 
 >* Does God exist?
 >
@@ -105,7 +105,9 @@ At least, this time, it makes some sense. We can, and should, use logic in matte
 >This is a position no thinking atheist denies; they just claim that the universe is that eternal being. However, the problem with that stance is that all scientific evidence points to the fact that the universe had a beginning (the 'big bang'). And everything that has a beginning must have a cause; therefore, the universe had a cause and is not eternal. Because the only two sources of eternality are an eternal universe (denied by all current empirical evidence) or an eternal Creator, the only logical conclusion is that God exists. Answering the question of God’s existence in the affirmative rules out atheism as a valid belief system.
 >[...]
 
-_The argument from God can be presented very simply: Something exists..._ hold on, is that the [cosmological argument](https://en.wikipedia.org/wiki/Cosmological_argument)? Indeed, very simply presented and not in the least satisfactory. First of all, it presumes that everything with a beginning has a cause, which is not necessarily true in the case of the universe. If the Big Bang is the beginning of it all, questioning what happened before time began makes not much sense- the laws of nature themselves were created there. On the other hand, it might be the case that time never actually begins or ends, and the Big Bang was only one of the continuous changes of the universe. We can't answer this question as of yet. Still, in either case of coming from nothing or "forming up" certain time, if we assume that the universe had a cause, what evidence appoints to a "who" (a personal being) instead of a "what" (some undisclosed event or impersonal being) as the _causer_? What about multiple causes? And so on, [turtles all the way down](https://en.wikipedia.org/wiki/Turtles_all_the_way_down), what caused the cause of the universe? Saying God is the uncaused cause doesn't cut it- it is just special pleading, since no evidence has been provided. Nevertheless, naked as it is of any proof, the article proceeds to demonstrate some characteristics of the being who created the universe:
+_The argument from God can be presented very simply: Something exists..._ hold on, is that the cosmological argument? Let's not go down that rabbit hole...
+
+Nevertheless, naked as it is of any proof, the article proceeds to demonstrate some characteristics of the being who created the universe:
 
 >Now, this conclusion says nothing about what kind of God exists, but amazingly enough, it does do one sweeping thing—it rules out all pantheistic religions. All pantheistic worldviews say that the universe is God and is eternal. And this assertion is false. So, Hinduism, Buddhism, Jainism, and all other pantheistic religions are ruled out as valid belief systems.
 >
