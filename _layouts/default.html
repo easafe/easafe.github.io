@@ -1,4 +1,6 @@
 {% include top.html %}
-            <a class="title" href="{{ page.url }}">{{ page.title }}</a>
+            {% if page.title %}
+                <a class="title" href="{{ page.url }}">{{ page.title }}</a>
+            {% endif %}
             {{ content }}
-{% include bottom.html %}        
+{% include bottom.html %}
