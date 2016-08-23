@@ -4,7 +4,7 @@ title: Notes on Racket
 tags: [cs]
 ---
 
-The Racket language belongs to the LISP family. The main difference between LISP and other languages is that you can name like-this, as opposed to likeThis (or ,even worse, like_this), and all operators all prefix. That and homoiconicity. Homoiconicity is a fancy name for "code as data", i.e., LISP code can be manipulated as any other data structure. Such manipulation is achieved by the use of macros- functions that receive code and output code, which in some cases might [as well be black magic](http://www.greghendershott.com/fear-of-macros/).
+The Racket language belongs to the LISP family. The main difference between LISP and other languages is that you can name like-this, as opposed to likeThis (or, even worse, like_this), and all operators all prefix. That and homoiconicity. Homoiconicity is a fancy name for "code as data", i.e., LISP code can be manipulated as any other data structure. Such manipulation is achieved by the use of macros- functions that receive code and output code, which in some cases might [as well be black magic](http://www.greghendershott.com/fear-of-macros/).
 
 But let's not get ahead of ourselves. Shall we begin with a simple function?
 
@@ -75,9 +75,7 @@ Multiple returns are really neat, huh? What about pattern matching as a library 
 
 {% highlight racket %}
 (begin-for-syntax
- ;; do-one-contract : stx id stxclass ctcrec id -> stx
  (define (do-one-contract stx scname stxclass rec pos-module-source)
-   ;; First, is the contract feasible?
    (match (stxclass-arity stxclass)
      [(arity minpos maxpos minkws maxkws)
       (let* ([minpos* (length (ctcrec-mpcs rec))]
@@ -146,9 +144,9 @@ Multiple returns are really neat, huh? What about pattern matching as a library 
                      (quote-syntax contracted-parser)
                      'splicing?
                      'options
-                     #f)) ;; must disable integration
+                     #f))
                   (provide (rename-out [contracted-scname scname])))))))])))
 
 {% endhighlight %}
 
-In conclusion, Racket is a nice, expressive, ultra dynamic LISP with Super Cow Powers. I recommend reading the [official repository](https://github.com/racket/racket/) as a starting guide.
+In conclusion, Racket is a nice, expressive, ultra dynamic LISP with Super Cow Powers. I recommend reading the [official racket repository](https://github.com/racket/racket/), whence all our examples were taken, as a starting guide.
