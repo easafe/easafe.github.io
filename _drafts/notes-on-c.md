@@ -1,0 +1,212 @@
+---
+layout: default
+title: Notes on C#
+tags: [cs]
+---
+
+C#, judged by those with no musical knowledge to meant C++++, is Microsoft's version of Java- what should say much about it. On a initial glance, it has all boredom of Java- albeit with much superior IDE- but a closer inspection shows how much of the hipster, exotic oriental fruit Kool-Aid of functional programming it has drunk. The result is what you'd expect: a holy mess. Check out how intuitive and clean the usual C# program is:
+
+{% highlight cs %}
+internal static sealed class RunOfTheMillClass {
+    internal static Func<Expression, string> SomeMethod () {    
+        var Op = new Dictionary<ExpressionType, string> { { ExpressionType.Add, "+" } };
+
+        Expression<Func<int,int,int>> add = (x,y) => x + y;
+
+        Func<Expression, string> toString = null;
+        toString = exp =>
+        exp.Match()
+            .With<LambdaExpression>(l => toString(l.Body))
+            .With<ParameterExpression>(p => p.Name)
+            .With<BinaryExpression>(b => String.Format("{0} {1} {2}", toString(b.Left), Op[b.NodeType], toString(b.Right)))
+            .Return<string>();
+
+            return toString;   
+    }
+
+    internal static Func<T, TResult> Uncurry<T, TResult>(this Func<Func<T, TResult>> function) => arg => function()(arg);
+
+    internal static Func<T1, T2, TResult> Uncurry<T1, T2, TResult>(this Func<T1, Func<T2, TResult>> function) {
+        return (arg1, arg2) => function(arg1)(arg2);
+    }
+
+    internal static Func<T1, T2, T3, TResult> Uncurry<T1, T2, T3, TResult>
+        (this Func<T1, Func<T2, Func<T3, TResult>>> function) =>
+            (arg1, arg2, arg3) => function(arg1)(arg2)(arg3);
+
+    internal static Func<T1, T2, T3, T4, TResult> Uncurry<T1, T2, T3, T4, TResult>
+        (this Func<T1, Func<T2, Func<T3, Func<T4, TResult>>>> function){
+            return (arg1, arg2, arg3, arg4) => function(arg1)(arg2)(arg3)(arg4);
+    }
+
+}
+{% endhighlight %}
+
+However, for those with Gang of Four background who were sold on propaganda of nostalgic Factories of Factories, C# also has plenty of that good old OOP. The [commom place Java Hello World](https://taskinoor.wordpress.com/2011/09/21/the-abuse-of-design-patterns-in-writing-a-hello-world-program/) converts almost line per line- with the exception that we don't need a different file for every single class, and we need To Name Like This:
+
+{% highlight cs %}
+public interface Subject {
+    public void Attach(Observer observer);
+    public void Detach(Observer observer);
+    public void NotifyObservers();
+}
+
+public interface Observer {
+    public void Update(Subject subject);
+}
+
+public class HelloWorldSubject : Subject {
+    private List<Observer> observers;
+    private string str;
+
+    public HelloWorldSubject() : base() {
+        observers = new List<Observer>();
+    }
+
+    public void Attach(Observer observer) {
+        observers.Add(observer);
+    }
+
+    public void Detach(Observer observer) {
+        observers.Remove(observer);
+    }
+
+    public void NotifyObservers() {
+        IEnumerator<Observer> iter = observers.GetEnumerator();
+
+        while (iter.MoveNext()) {
+            Observer observer = iter.Current;
+            observer.Update(this);
+        }
+    }
+
+    public String GetStr() {
+        return str;
+    }
+
+    public void SetStr(string str) {
+        this.str = str;
+        NotifyObservers();
+    }
+}
+
+public class HelloWorldObserver : Observer {
+    public void Update(Subject subject) {
+        HelloWorldSubject sub = (HelloWorldSubject)subject;
+        Console.WriteLine(sub.GetStr());
+    }
+}
+
+public interface Command {
+    void Execute();
+}
+
+public class HelloWorldCommand implements Command {
+
+    private HelloWorldSubject subject;
+
+    public HelloWorldCommand(Subject subject) : base() {
+        this.subject = (HelloWorldSubject)subject;
+    }
+
+    public void Execute() {
+        subject.SetStr("hello world");
+    }
+}
+
+public interface AbstractFactory {
+    public Subject CreateSubject();
+    public Observer CreateObserver();
+    public Command createCommand(Subject subject);
+}
+
+public class HelloWorldFactory implements AbstractFactory {
+
+    public Subject CreateSubject() {
+        return new HelloWorldSubject();
+    }
+
+    public Observer CreateObserver() {
+        return new HelloWorldObserver();
+    }
+
+    public Command createCommand(Subject subject) {
+        return new HelloWorldCommand(subject);
+    }
+}
+
+public class FactoryMakerSingleton {
+    private static FactoryMakerSingleton instance = null;
+    private AbstractFactory factory;
+
+    private FactoryMakerSingleton() {
+        factory = new HelloWorldFactory();
+    }
+
+    public static FactoryMakerSingleton GetInstance() {
+        if (instance == null) {
+            instance = new FactoryMakerSingleton();
+        }
+
+        return instance;
+    }
+
+    public AbstractFactory GetFactory() {
+        return factory;
+    }
+}
+
+public class PatternfulClass {
+    public static void Main(string[] args) {
+        AbstractFactory factory = FactoryMakerSingleton.GetInstance().GetFactory();
+
+        Subject subject = factory.CreateSubject();
+        subject.Attach(factory.CreateObserver());
+
+        Command command = factory.createCommand(subject);
+
+        command.Execute();
+    }
+}
+{% endhighlight %}
+
+However yet, C# enables people with poor typing discipline too- enter the dynamic keyword:
+
+{% highlight cs %}
+class Rubyish
+{
+    static dynamic field;
+    dynamic prop { get; set; }
+
+    static void Main(string[] args)
+    {
+        dynamic expando = new ExpandoObject();
+        expando.SomeNewStringVal = "Hello Brave New Whirrled!";
+        Console.WriteLine(expando.SomeNewStringVal);
+
+        var p = expando as IDictionary<String, object>;
+        p["A"] = "New val 1";
+        p["B"] = "New val 2";
+
+        Console.WriteLine(expando.A);
+        Console.WriteLine(expando.B);
+    }
+
+    public dynamic AnotherMethod(dynamic d)
+    {
+        dynamic local = "Local variable";
+        int two = 2;
+
+        if (d is int)
+        {
+            return local;
+        }
+        else
+        {
+            return two;
+        }
+    }    
+}
+{% endhighlight %}
+
+I hope this short tour can convince you of the [large architectural choice](https://en.wikipedia.org/wiki/Feature_creep) offered by C#, bested maybe by only C++ or Scala. You can learn more about C# reading the [.NET source reference](http://referencesource.microsoft.com/).
