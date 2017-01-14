@@ -6,4 +6,4 @@ That's me, azafeh.
 
 Software Developer, SP based.
 
-I like my lines to be increasing widthwise.
+I like my lines to be widthwise increasing.
