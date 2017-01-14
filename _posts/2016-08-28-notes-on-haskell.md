@@ -41,6 +41,17 @@ runST :: forall a. (forall s. ST s a) -> a
 
 we also can have variables like virtually every existing language! Take that, LISP macros!
 
+* Clarity
+
+Another thing we might say to Haskell's favor is its no nonsense philosophy. Who never walked down the street and thought "Man, a fixed pointer combinator is all I need"!?
+
+{% highlight haskell %}
+ fix :: (a -> a) -> a
+ fix f = let x = f x in x
+{% endhighlight %}
+
+While other languages, such as C++ or Python, use fancy (and overrated) constructs like assignment or while loops, Haskell features only intuitive, down-to-earth practicalities, e.g., [free monads](https://hackage.haskell.org/package/free), [yoneda lemmes](https://hackage.haskell.org/package/category-extras-0.52.1/docs/Control-Functor-Yoneda.html), [type level recursion](https://www.schoolofhaskell.com/user/mutjida/typed-tagless-final-linear-lambda-calculus/6-recursive-types) and, of course, [several clear](https://hackage.haskell.org/package/pipes) ways [to do](https://hackage.haskell.org/package/conduit) streaming [IO](https://hackage.haskell.org/package/io-streams). I wish they had showed me recursion schemes with catamorphisms when I first learned how to program.
+
 * Type families
 
 Type families solves those problems you otherwise wouldn't have with simpler languages. The recommend approach is to use them together with [type level literals](https://hackage.haskell.org/package/base-4.9.0.0/docs/GHC-TypeLits.html). Let's see an example:
@@ -121,14 +132,5 @@ main = do
 {% endhighlight %}
 
 Fuck simple dynamic dispatch from real OO languages (read: SmallTalk) or no mental overhead dynamic typing- we can play type level Pokemon.
-
-Another thing we might say to Haskell's favor is its no nonsense philosophy. Who never walked down the street and thought "Man, a fixed pointer combinator is all I need"!?
-
-{% highlight haskell %}
- fix :: (a -> a) -> a
- fix f = let x = f x in x
-{% endhighlight %}
-
-While other languages, such as C++ or Python, use fancy (and overrated) constructs like assignment or while loops, Haskell features only intuitive, down-to-earth practicalities, e.g., [free monads](https://hackage.haskell.org/package/free), [yoneda lemmes](https://hackage.haskell.org/package/category-extras-0.52.1/docs/Control-Functor-Yoneda.html), [type level recursion](https://www.schoolofhaskell.com/user/mutjida/typed-tagless-final-linear-lambda-calculus/6-recursive-types) and, of course, [several clear](https://hackage.haskell.org/package/pipes) ways [to do](https://hackage.haskell.org/package/conduit) streaming [IO](https://hackage.haskell.org/package/io-streams). I wish they had showed me recursion schemes with catamorphisms when I first learned how to program.
 
 Summing up, Haskell is de facto practical man's language. While its use is best advised where cheap PHP hosting is currently employed, its advanced type system can help you leverage all kinds of [abstract nonsense](https://en.wikipedia.org/wiki/Category_theory).
