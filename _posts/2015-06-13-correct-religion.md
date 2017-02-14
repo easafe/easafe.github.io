@@ -18,7 +18,7 @@ Then it proceeds to lay down a "framework" which one may go about finding the tr
 >
 >* Existential relevancy- the belief system should address the big questions of life described below and the teachings should be accurately reflected in the world in which we live. Christianity, for example, provides good answers for the large questions of life, but is sometimes questioned because of its claim of an all-good and powerful God who exists alongside a world filled with very real evil. Critics charge that such a thing violates the criteria of existential relevancy, although many good answers have been given to address the issue.
 
-I guess that only _really_ good arguments/evidences could settle the problem of conflicting religious claims and gods. The folks at GotQuestions.org have a different opinion, though. But is their framework any good? From the get-go, the first point, logical consistency, makes an ignorant argument: in Buddhism, not all desires are inherently evil or should be abandoned, rather the goal is see them for what they are, and then search fulfillment in oneself instead of the external world. Anyway, the emphasis on consistency is entirely irrelevant: disregarding the fact that logically consistent systems might yield bogus conclusions, lack of nonsense is something you'd expect at any rate.
+I guess that only really good arguments/evidences could settle the problem of conflicting religious claims and gods. The folks at GotQuestions.org have a different opinion, though. But is their framework any good? From the get-go, the first point, logical consistency, makes an ignorant argument: in Buddhism, not all desires are inherently evil or should be abandoned, rather the goal is see them for what they are, and then search fulfillment in oneself instead of the external world. Anyway, the emphasis on consistency is entirely irrelevant: disregarding the fact that logically consistent systems might yield bogus conclusions, lack of nonsense is something you'd expect at any rate.
 
 As for the second point, empirical adequacy, I will have to agree: talk is cheap, where is the evidence? (well, there's also "absolutely no proof" of Jesus' miracles or divinity, but the author doesn't seem to be bothered by it). I also fail to see why the last bullet had to be pointed. Who is to say the true religion is not amoral or has a deity who doesn't care about us at all? But then again, maybe relevancy is something you'd expect right off the bat.
 
@@ -70,7 +70,7 @@ Then why does the list from the article seems to beg the question? Why feature G
 >
 >The answer of question one is that absolute truth exists. This being the case, agnosticism, postmodernism, relativism, and skepticism are all false positions.
 
-Clearly the author here is a Truth fetishist. But I am afraid even the people whom the author take issue with, namely relativists, would agree that at least some truts still exists- for instance, isn't it *absolutely* true that a triangule has three sides? It looks like the rules of logic are safe from the hardcore skeptics, too. But who are these people, anyway? There are *absolutely* no postmodernist philosophers. "Postmodern" philosophy isn't a goddamn thing. Who we should take seriously accepts all proposition on the basis that each of them might be true? Sounds like a theme here, but it *absolutely* seems the author is talking out of his ass. To make matters worse, few positions are clear cut, for a lack of better term, as he would like them to be. When I accept a position it isn't because I can draw on brown paper a 100% certain, *absolute* math proof- most of the time, I just happen to find sufficient reasons for it(people change their minds, right?). There are many a thing which a clear solution isn't obvious, but we still can pick reasonable sides.
+Clearly the author here is a Truth fetishist. But I am afraid even the people whom the author take issue with, namely relativists, would agree that at least some truths still exists- for instance, isn't it *absolutely* true that a triangle has three sides? It looks like the rules of logic are safe from the hardcore skeptics, too. But who are these people, anyway? There are *absolutely* no postmodernist philosophers. "Postmodern" philosophy isn't a goddamn thing. Who- that should take seriously- accepts all proposition on the basis that each of them might be true? Sounds like a theme here, but it *absolutely* seems the author is talking out of his ass. To make matters worse, few positions are clear cut, for a lack of better term, as he would like them to be. When I accept a position it isn't because I can draw on brown paper a 100% certain, *absolute* math proof- most of the time, I just happen to find sufficient reasons for it(people change their minds, right?). There are many a thing which a clear solution isn't obvious, but we still can pick reasonable sides.
 
 Anyway, it is still laughable how the article defends its wacky concept of absolute truth. The argument employed, known as "Road Runner Tactic" or Stolen Concept, is infamous in the following forms:
 
@@ -105,9 +105,9 @@ At least, this time, it makes some sense. We use logic in matters of religion al
 >This is a position no thinking atheist denies; they just claim that the universe is that eternal being. However, the problem with that stance is that all scientific evidence points to the fact that the universe had a beginning (the 'big bang'). And everything that has a beginning must have a cause; therefore, the universe had a cause and is not eternal. Because the only two sources of eternality are an eternal universe (denied by all current empirical evidence) or an eternal Creator, the only logical conclusion is that God exists. Answering the question of God's existence in the affirmative rules out atheism as a valid belief system.
 >[...]
 
-_The argument from God can be presented very simply: Something exists..._ hold on, is that the cosmological argument? Oh my, you can see the author thinks that cause = order of events since he brings up "beginning", "eternal" in the explanation of the universe... An serious version of this argument (e.g., Aquinas' first way, which can't be poked holes by "then who created god" or some shit) is not "simple", and couldn't be properly explained in the sketchy way the article is hurried.
+_The argument from God can be presented very simply: Something exists..._ hold on, is that the cosmological argument? Oh my, you can see the author thinks that cause = order of events since he brings up "beginning", "eternal" in the explanation of the universe... A serious version of this argument (e.g., Aquinas' first way, which can't be poked holes by "then who created god" or some shit) is not "simple", and couldn't be properly explained in the sketchy way the article is hurried.
 
-Nevertheless, with all of that "proof", the article proceeds to demonstrate some characteristics of the being who created the universe:
+Nevertheless, with all of that "proof", the author proceeds to demonstrate some characteristics of the being who created the universe:
 
 >Now, this conclusion says nothing about what kind of God exists, but amazingly enough, it does do one sweeping thing—it rules out all pantheistic religions. All pantheistic worldviews say that the universe is God and is eternal. And this assertion is false. So, Hinduism, Buddhism, Jainism, and all other pantheistic religions are ruled out as valid belief systems.
 >
@@ -129,7 +129,7 @@ Nevertheless, with all of that "proof", the article proceeds to demonstrate some
 >
 >* Necessary (as everything else depends on Him)
 >
->* Infinite and singular (as you cannot have two infinites)
+>* Infinite and singular (as you cannot have two infinities)
 >
 >* Diverse yet has unity (as all multiplicity implies a prior singularity)
 >
@@ -143,7 +143,7 @@ Nevertheless, with all of that "proof", the article proceeds to demonstrate some
 >
 >This Being exhibits characteristics very similar to the God of Judaism, Islam, and Christianity, which interestingly enough, are the only core faiths left standing after atheism and pantheism have been eliminated. Note also that one of the big questions in life (origins) is now answered: we know where we came from.
 
-How the articles inferrs some of these bullet points is beyond me. How did they got Caring or Moral from simply stating that someone created the universe? I believe even the author may not know(interestingly enough, these characteristics doesn't rule out [Zoroastrianism](https://en.wikipedia.org/wiki/Zoroastrianism) either, or pretty much any other monotheist religion [as the author doesn't seem to acknowledge polytheism or the difference between *theism* and religion] with a personal creator). Let's just skip the odd bits about not existing tow infinites or morality depending on God. Well, we have left three similar religions, from which we may guess the author belongs to one. This still sounds like a big problem, which one is the truthful?
+How the article infers some of these bullet points is beyond me. How did they got Caring or Moral from simply stating that someone created the universe? I believe even the author may not know(interestingly enough, these characteristics doesn't rule out Zoroastrianism either, or pretty much any other monotheist religion [as the author doesn't seem to acknowledge polytheism or the difference between *theism* and religion] with a personal creator). Let's just skip the odd bits about not existing two infinities or morality depending on God. Well, we have left three similar religions, from which we may guess the author belongs to one. This still sounds like a big problem, which one is the truthful?
 
 >* Is Jesus God? _and_ Does God care about me?
 >
@@ -161,7 +161,7 @@ Here, it seems we can rule out the false religions by asking "is Jesus God?". Al
 >
 >This same Bible proclaims that God cares deeply for mankind and wishes all to know Him intimately. In fact, He cares so much that He became a man to show His creation exactly what He is like. [...] This deduction (and the point of God becoming a man in Christ) also refutes Deism, which says God is not interested in the affairs of mankind
 
-Ah, the argument from the bible. What is told in the bible is true because it is told in the bible. Change the book, and isn't this what other religions also claim?
+Ah, the ol' argument from the bible. What is told in the bible is true because it is told in the bible. Change the book, and isn't this what other religions also claim?
 
 As final remarks, I will rewrite the article's own conclusion:
 
