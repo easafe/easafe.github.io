@@ -4,7 +4,7 @@ title: The correct religion
 tags: [religion]
 ---
 
-Looking around the web, I found an [interesting article](http://www.gotquestions.org/correct-religion.html) on the amazing website [http://www.gotquestions.org](http://www.gotquestions.org). For those of you who don't know, GotQuestions.org is a Christian apologetics website, featuring thousands of answers, pulled from the bible, to polemic issues such as homosexuality, sin, life after death and so on. However, the article at hand is a much more fundamental problem- hence, it tries to answer its headline, aptly titled _With all of the different religions, how can I know which one is correct?_, with sheer "logic". The first paragraphs read:
+Looking around the web, I found an [interesting article](http://www.gotquestions.org/correct-religion.html) on the amazing website [http://www.gotquestions.org](http://www.gotquestions.org). For those of you who don't know, GotQuestions.org is a Christian apologetics website, featuring thousands of answers, pulled from the bible, to "polemic" issues such as homosexuality, sin, life after death and whatever. However, the article at hand is a much more fundamental problem- hence, it tries to answer its headline, aptly titled _With all of the different religions, how can I know which one is correct?_, with sheer "logic". The first paragraphs read:
 
 >There is no doubt that the number of different religions in the world makes it a challenge to know which one is correct. First, let’s consider some thoughts on the overall subject and then look at how one might approach the topic in a manner that can actually get to a right conclusion about God. The challenge of different answers to a particular issue is not unique to the topic of religion. For example, you can sit 100 math students down, give them a complex problem to solve, and it is likely that many will get the answer wrong. But does this mean that a correct answer does not exist? Not at all. Those who get the answer wrong simply need to be shown their error and know the techniques necessary to arrive at the correct answer.
 >
@@ -18,9 +18,9 @@ Then it proceeds to lay down a "framework" which one may go about finding the tr
 >
 >* Existential relevancy- the belief system should address the big questions of life described below and the teachings should be accurately reflected in the world in which we live. Christianity, for example, provides good answers for the large questions of life, but is sometimes questioned because of its claim of an all-good and powerful God who exists alongside a world filled with very real evil. Critics charge that such a thing violates the criteria of existential relevancy, although many good answers have been given to address the issue.
 
-I would suspect that only _really_ good evidence could settle the problem of conflicting religious claims and gods. The folks at GotQuestions.org have a different opinion, though. But is their framework any good? From the get-go, the first point, logical consistency, makes an illogical (or at best, from ignorance) argument: in Buddhism, not all desires are inherently evil or should be abandoned, rather the goal is see them for what they are, and then search fulfillment in oneself instead of the external world. Anyway, the emphasis on consistency is entirely irrelevant- disregarding the fact that many logically consistent systems yield bogus conclusions- lack of nonsense is something you'd expect at any rate.
+I guess that only _really_ good arguments/evidences could settle the problem of conflicting religious claims and gods. The folks at GotQuestions.org have a different opinion, though. But is their framework any good? From the get-go, the first point, logical consistency, makes an ignorant argument: in Buddhism, not all desires are inherently evil or should be abandoned, rather the goal is see them for what they are, and then search fulfillment in oneself instead of the external world. Anyway, the emphasis on consistency is entirely irrelevant: disregarding the fact that logically consistent systems might yield bogus conclusions, lack of nonsense is something you'd expect at any rate.
 
-As for the second point, empirical adequacy, I will have to agree: talk is cheap, where is the evidence? (well, there's also no proof of Jesus' miracles, let alone his divinity, but the author doesn't seem to be bothered by it) I also fail to see why the last bullet had to be pointed. Who is to say the true religion is not amoral or has a God who doesn't care about us at all? Just because we would like something- or have a pre conceived notion to project- it does not mean reality must conform. In fact, it doesn't even mean it should- or else, I really would like to be able to breath in space, or take a vacation in Japan.
+As for the second point, empirical adequacy, I will have to agree: talk is cheap, where is the evidence? (well, there's also "absolutely no proof" of Jesus' miracles or divinity, but the author doesn't seem to be bothered by it). I also fail to see why the last bullet had to be pointed. Who is to say the true religion is not amoral or has a deity who doesn't care about us at all? But then again, maybe relevancy is something you'd expect right off the bat.
 
 Anyway, the article resumes its logical quest stumbling upon the Four Big Questions of Life, and how exactly to apply the little framework in the assessing of religion:
 
@@ -48,7 +48,7 @@ Anyway, the article resumes its logical quest stumbling upon the Four Big Questi
 >
 >* Does God care about me?
 
-The only answer I can give to any of these 10 questions is: why? Why are any of these intrinsic to the question of actual religion? Suppose (like the article conveniently does) you were to take a elimination approach to filter out which, if any, of all religious claims are true. Wouldn't you have to include features from _all_ religious? Your rather large list would surely have items such as:
+The only answer I can give to any of these 10 questions is: why? Why is this specific set intrinsic to the question of actual religion? Suppose (like the article conveniently does) you were to take a elimination approach to filter out which, if any, of all religious claims are true. Wouldn't you have to include features from _all_ religious? Your rather large list would surely have items such as:
 
 >* Does Ra exist?
 >
@@ -58,7 +58,7 @@ The only answer I can give to any of these 10 questions is: why? Why are any of 
 >
 >[...]
 
-Then why does the list from the article seems to beg the question? Why feature God and Jesus so prominently when we haven't even ruled out Evil (or any other abstract concept) as the truthful religion? Let's see what the author has for answers:
+Then why does the list from the article seems to beg the question? Why feature God and Jesus so prominently when we haven't even ruled out...anything else? Let's see what the author has for answers:
 
 >* Does absolute truth exist?
 >
@@ -70,15 +70,15 @@ Then why does the list from the article seems to beg the question? Why feature G
 >
 >The answer of question one is that absolute truth exists. This being the case, agnosticism, postmodernism, relativism, and skepticism are all false positions.
 
-Even if we concede that something as vague as "absolute truth" exists, it is still laughable how the article defends it. The argument employed, known as "Road Runner Tactic" or Stolen Concept, is infamous in the following forms:
+Clearly the author here is a Truth fetishist. But I am afraid even the people whom the author take issue with, namely relativists, would agree that at least some truts still exists- for instance, isn't it *absolutely* true that a triangule has three sides? It looks like the rules of logic are safe from the hardcore skeptics, too. But who are these people, anyway? There are *absolutely* no postmodernist philosophers. "Postmodern" philosophy isn't a goddamn thing. Who we should take seriously accepts all proposition on the basis that each of them might be true? Sounds like a theme here, but it *absolutely* seems the author is talking out of his ass. To make matters worse, few positions are clear cut, for a lack of better term, as he would like them to be. When I accept a position it isn't because I can draw on brown paper a 100% certain, *absolute* math proof- most of the time, I just happen to find sufficient reasons for it(people change their minds, right?). There are many a thing which a clear solution isn't obvious, but we still can pick reasonable sides.
+
+Anyway, it is still laughable how the article defends its wacky concept of absolute truth. The argument employed, known as "Road Runner Tactic" or Stolen Concept, is infamous in the following forms:
 
 > Are you absolutely sure that absolutes do not exist?
 
 > Is it true that no truth exists?
 
-That is, the entire dismissal of agnosticism- or any other kind of doubt of the author's beliefs- hangs on a rhetorical trick. In the event someone says "there are no absolutes", it is most likely meant to be a generalization, not a categorical affirmation. The sentence could easily be changed to "I don't see evidence for absolute truths". This, and likewise misfits of language, are only exploited in lazy, distracting argumentation.
-
-However, let's not delve into how we have to assume reality and a ability to reason about it, and agree with the article that, in a day-to-day sense, absolute truths exists. That being said, which, if any, of its arguments demonstrate the existence of a absolute, i.e. correct, religion? Hinduism has an interesting concept, [Trimurti](https://en.wikipedia.org/wiki/Trimurti), which says all of their gods are different aspects of the same all pervasive One. As the reasoning of the articles goes, this could also very well be an absolute truth: the one true God [Svayam Bhagavan](https://en.wikipedia.org/wiki/Svayam_Bhagavan) is actually mischievous and all religions are just misleading facets of him- whether they agree with each other or not, depends on whom He wants to prank. Nevertheless, there's still the issue of existing no guarantees that God or Gods can reliably transmit their messages. Couldn't all religions be the same core truths degenerated in different ways? Well, for what it is worth, most religious can be distilled to "treat others well and look for something higher than yourself".
+That is, the entire dismissal of any kind of doubt of the author's beliefs hangs on a rhetorical trick. In the event someone says "there are no absolutes", it is most likely meant to be a generalization, not a categorical affirmation. The sentence could easily be changed to "I don't see evidence for absolute truths". But if we are using tricks, Hinduism has an interesting concept, [Trimurti](https://en.wikipedia.org/wiki/Trimurti), which says all of their gods are different aspects of the same all pervasive One. As the reasoning of the articles goes, this could also very well be an "absolute truth": the one true God [Svayam Bhagavan](https://en.wikipedia.org/wiki/Svayam_Bhagavan) is actually mischievous and all religions are just misleading facets of him- whether they agree with each other or not, depends on whom He wants to prank. What a satisfying intellectual solution, or in other words, it's just a prank, bro!
 
 >* Do reason and religion mix?
 >
@@ -90,7 +90,7 @@ However, let's not delve into how we have to assume reality and a ability to rea
 >
 >The conclusion is that you can use reason and logic in matters of religion. That being the case, pluralism (the belief that all truth claims are equally true and valid) is ruled out because it is illogical and contradictory to believe that diametrically opposing truth claims can both be right.
 
-At least, this time, it makes some sense. We can, and should, use logic in matters of religion. Well, there's this entire this entire thing called Philosophy of Religion. However, again, the author fails to show how logic dispels only some religions as opposed to any.
+At least, this time, it makes some sense. We use logic in matters of religion all the time, there's this entire thing called Philosophy of Religion. However, again, the author fails to show how logic dispels only some religions as opposed to any.
 
 >* Does God exist?
 >
