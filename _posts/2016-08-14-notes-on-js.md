@@ -67,6 +67,7 @@ f(1,1);
 {% endhighlight %}
 
 2. Forget proper scoping
+
 JavaScript has no concept of block scoping. Instead, functions (again) determine the scope of variables, which makes you write code as follows
 
 {% highlight javascript %}
@@ -87,7 +88,7 @@ just in case you feel like reusing a variable name. Misspelled a variable name? 
 
 Ah, and don't forget the _[this](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)_ mess.
 
-3. Fake keywords
+* Fake keywords
 
 JavaScript has a wart unique to itself: a few widely used symbols that look like keywords at a initial glance are, in fact, names which can be redeclared- all of that [without a preprocessor!](http://tigcc.ticalc.org/doc/cpp.html) One of them, the _this_ construct has already been mentioned; undefined, on the other hand, is another example which opens the chance for very pleasant debugging. For instance, this is perfectly valid:
 
