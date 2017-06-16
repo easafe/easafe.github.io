@@ -54,7 +54,7 @@ While other languages, such as C++ or Python, use fancy (and overrated) construc
 
 * Type families
 
-Type families solves those problems you otherwise wouldn't have with simpler languages. The recommend approach is to use them together with [type level literals](https://hackage.haskell.org/package/base-4.9.0.0/docs/GHC-TypeLits.html). Let's see an example:
+Type families solves those problems you otherwise wouldn't have with simpler languages. The recommend approach is to use them together with [type level literals](https://hackage.haskell.org/package/base-4.9.0.0/docs/GHC-TypeLits.html). Let's see an [example](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/type-families-and-pokemon):
 
 {% highlight haskell %}
 {-# LANGUAGE TypeFamilies, MultiParamTypeClasses, FlexibleContexts #-}
