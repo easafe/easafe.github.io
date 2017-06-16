@@ -4,7 +4,7 @@ title: Notes on JavaScript
 tags: [cs]
 ---
 
-JavaScript, maybe with the exception of PHP, is the worst widely used language. It is so hyperbolic awful, akin to when one feels down and listens to sad songs to continue down, one feels the need to use it everywhere for everything. Its meme like terribleness spread [to the server](https://nodejs.org/en/), spread to otherwise [unthinkable uses](https://atom.io/) of once a blinking pop up maker language, its corrosive effect has a permanent mark in the brain, up to when you find yourself accepting horrible malpractices as commom sense, [no matter what they are](https://www.mongodb.com/).  
+JavaScript, maybe with the exception of PHP, is the worst widely used language. It is so hyperbolic awful that, akin to when one feels down and listens to sad songs to continue down, one feels the need to use it everywhere for everything. Its meme like terribleness spread [to the server](https://nodejs.org/en/), spread to otherwise [unthinkable uses](https://atom.io/) of once a blinking pop up maker language; its corrosive effect has a permanent mark in the brain, up to when you find yourself accepting horrible malpractices as commom sense, [no matter what they are](https://www.mongodb.com/).  
 
 Now, the programmer who is safe from the monstrosities of web development may be thinking it can't be so bad. However, as I will show you, JavaScript tears down so many concepts taught in comp.sci. 101 that we can make long, nicely subdivided ordered lists about it (well, the list will probably come out with mixed formation and out of order numbering since it is JavaScript).
 
@@ -77,7 +77,7 @@ function whereBlockAt(){
   function blockIsHere() {
     var a = 25;
   };
-};
+}
 {% endhighlight %}
 
 just in case you feel like reusing a variable name. Misspelled a variable name? Don't worry, the JavaScript engine will kindly infer you mean something declared elsewhere. Need to hide some implementation details? Have fun with
