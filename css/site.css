@@ -254,12 +254,10 @@ footer div {
     .logo {
         order: -1;
     }
-
+   .post .resume li::before {
+		content: "\00B7";
+    }
     footer {height: auto}
-}
-
-@media (min-width:800px){
-	max-width: 70%;
 }
 
 .post a {
@@ -333,8 +331,7 @@ footer div {
     margin: 0 auto;
 }
 
-.post .resume div {
-    float: left;
+.post .resume div {    
     width: 100%;
     margin-bottom: 10px;
 }
