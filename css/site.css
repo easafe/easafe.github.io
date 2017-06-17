@@ -255,7 +255,7 @@ footer div {
         order: -1;
     }
    .post .resume li::before {
-		content: "\00B7";
+		content: "\2022";
     }
     footer {height: auto}
 }
@@ -374,3 +374,10 @@ footer div {
 	.post .resume .job-title {
 		font-style: italic;
 	}
+
+@media (max-width: 800px) {    
+   .post .resume li::before {
+		content: "\2022";
+    }    
+}
+
