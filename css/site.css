@@ -325,3 +325,47 @@ footer div {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+.post .resume div {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+.post .resume	.name,
+	.post .resume .division {
+		font-family: Cambria;
+	}
+
+	.post .resume .name {
+		letter-spacing: 2px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+.post .resume 	.division {
+		border-bottom: 1px solid;
+	}
+
+.post .resume 	.profession,
+	.post .resume .contact {
+		text-align: center;
+		font-family: Garamond;
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	.post .resume ul li {
+		list-style: none;
+	}
+
+	.post .resume li::before {
+		content: "";
+		font-family: 'Wingdings';
+		display: block;
+		float: left;
+	}
+
+	.post .resume .title {
+		font-style: italic;
+	}
