@@ -33,7 +33,6 @@ footer, .page:after {
     display: block;
 }
 
-/*flexbox, bitches*/
 .page-header {
     display: flex;
     justify-content: space-between;
@@ -257,12 +256,13 @@ footer div {
     }
 
     footer {height: auto}
+	
+    .post .resume {width : 100%;}	
 }
 
 .post a {
     text-decoration: underline;
 }
-
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
