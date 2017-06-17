@@ -256,8 +256,10 @@ footer div {
     }
 
     footer {height: auto}
-	
-    .post .resume {width : 100%;}	
+}
+
+@media (min-width:800px){
+	max-width: 70%;
 }
 
 .post a {
@@ -327,8 +329,7 @@ footer div {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 
-.post .resume{
-    max-width: 70%;
+.post .resume{    
     margin: 0 auto;
 }
 
