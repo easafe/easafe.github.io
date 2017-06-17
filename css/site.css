@@ -326,11 +326,17 @@ footer div {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+
+.post .resume{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .post .resume div {
-		float: left;
-		width: 100%;
-		margin-bottom: 10px;
-	}
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 .post .resume	.name,
 	.post .resume .division {
@@ -347,7 +353,7 @@ footer div {
 		border-bottom: 1px solid;
 	}
 
-.post .resume 	.profession,
+.post .resume .profession,
 	.post .resume .contact {
 		text-align: center;
 		font-family: Garamond;
@@ -364,8 +370,9 @@ footer div {
 		font-family: 'Wingdings';
 		display: block;
 		float: left;
+		padding-right: 5px;
 	}
 
-	.post .resume .title {
+	.post .resume .job-title {
 		font-style: italic;
 	}
