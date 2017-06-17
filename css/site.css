@@ -41,11 +41,25 @@ footer, .page:after {
 }
 .menu {
     font-size: 1.1em;
+      display:flex;  
 }
 .menu li {
     display: inline;
     padding-right: 15px;
 }
+.menu li ul {
+    display: none;
+    position:absolute;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li:hover ul li {
+    display: block;
+}
+
 .logo {
     font-size: 1.3em;
 }
