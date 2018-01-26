@@ -129,4 +129,4 @@ return self;
 };
 {% endhighlight %}
 
-To finalize this short carnival sideshow, a word of advice: do not let people fool you with talk of ES6, ES7 or ESn, strict mode or anyting of the sort- the only "viable" JavaScript is TypeScript.
+To finalize this short carnival sideshow, a word of advice: do not let people fool you with talk of ES6, ES7 or ESn, strict mode or anyting of the sort- the only "viable" JavaScript is ~~TypeScript~~ ~~Elm~~ PureScript.
