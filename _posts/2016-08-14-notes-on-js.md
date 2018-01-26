@@ -61,7 +61,7 @@ and of course Function is a also a constructor
 {% highlight javascript %}
 var f = new Function('a', 'b', 'return a + b');
 //we can add stuff here too
-f.greeting = 'zero is the identity of addition'
+f.greeting = 'zero is the identity of addition';
 
 f(1,1);
 {% endhighlight %}
