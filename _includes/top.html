@@ -5,39 +5,32 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=yes" />
     <title>Eduardo Asafe</title>
-    <meta name="author" content="Asafe Ribeiro" />
-    <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
-    {% if page.tag %}
-      <link rel="stylesheet" href="/css/{{ page.tag }}.css" type="text/css" media="all" />
-    {% elsif page.tags[0] %}
-      <link rel="stylesheet" href="/css/{{ page.tags[0] }}.css" type="text/css" media="all" />
-    {% endif %}
+    <meta name="author" content="Eduardo Asafe" />
+    <link rel="stylesheet" href="/css/site.css" type="text/css" media="all" /> {% if page.tag %}
+    <link rel="stylesheet" href="/css/{{ page.tag }}.css" type="text/css" media="all" /> {% elsif page.tags[0] %}
+    <link rel="stylesheet" href="/css/{{ page.tags[0] }}.css" type="text/css" media="all" /> {% endif %}
 </head>
 
 <body>
     <div class="page">
         <header class="page-header">
-           <span title="JavaScript, C#, Haskell, guitars and fiction"><a href="/" class="logo">Eduardo Asafe</a> Full Stack Developer & Occasionally Writer </span>
+            <span><a href="/" class="logo">Eduardo Asafe </a><span title="Haskell & fiction"> Full Stack Developer & Occasionally
+                    Writer </span></span>
             <ul class="menu">
+                <li>
+                    <a href="/projects">projects</a>
+                </li>
                 <li>
                     <a href="https://github.com/azafeh">github</a>
                 </li>
                 <li>
-                    <a href="#">projects</a>
+                    <a href="#">contact</a>
                     <ul>
-                        <li><a href="insight-hack">InsightHack</a></li>                        
-                        <!--  <li><a href="http://tldrwiki.xyz">TLDRWiki</a></li> -->
+                        <li><a href="mailto:azafeh@azafeh.com">email</a></li>
+                        <li><a href="https://www.linkedin.com/in/eduardo-asafe-ribeiro-413597145/">linkedin</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">contact</a>
-                     <ul>
-                        <li><a href="mailto:azafeh@azafeh.com">email</a></li>
-                        <li><a href="https://www.linkedin.com/in/eduardo-asafe-ribeiro-413597145/">linkedin</a></li>                        
-                        <!--   <li><a href="https://twitter.com/azafeh">twitter</a></li> -->
-                    </ul>
-                </li>       
             </ul>
-            
         </header>
+
         <article class="post">
