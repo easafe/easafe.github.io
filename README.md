@@ -1,3 +1,3 @@
 ### azafeh.github.io
 
-Jekyll personal website. www.azafeh.com
+Jekyll personal website. https://asafe.dev
