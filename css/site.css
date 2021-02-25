@@ -330,9 +330,6 @@ footer div {
     .post .resume li::before {
         content: "\2022";
     }
-    footer {
-        height: auto
-    }
 }
 
 .post a {
