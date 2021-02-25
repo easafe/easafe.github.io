@@ -106,10 +106,6 @@ footer {
     display: flex;
 }
 
-footer a {
-    color: white;
-}
-
 footer div {
     margin: auto;
 }
@@ -786,10 +782,11 @@ footer div {
 }
 
 ul.projects {
-    padding: 10px 0px;
+    padding:  0px;
 }
 
 ul.projects li {
+    margin-bottom: 40px;
     list-style: none;
 }
 
@@ -799,4 +796,8 @@ ul.projects li {
 
 .projects img {
     border: 1px solid black;
+}
+
+.projects i {
+    display: block;
 }
