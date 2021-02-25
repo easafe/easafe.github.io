@@ -15,7 +15,6 @@ html, body {
     color: #333;
     line-height: 1.5;
     font-family: 'Rajdhani';
-    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -25,7 +24,7 @@ a {
 }
 
 a:hover {
-    color:var(--accent);
+    color: var(--accent);
 }
 
 .page {
@@ -46,13 +45,15 @@ footer, .page:after {
 .page-header {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 75px 0;
+    padding: 40px 0 80px 0;
     font-family: 'Rajdhani';
 }
 
 .menu {
-    font-size: 1.1em;
     display: flex;
+    font-size: 1em;
+    align-items: center;
+    font-weight: bold;
 }
 
 .menu li {
@@ -89,7 +90,7 @@ footer, .page:after {
 }
 
 .post {
-    margin: 5px 0px 20px 0px;
+    margin: 5px 0px 40px 0px;
     text-align: justify;
 }
 
@@ -323,12 +324,19 @@ footer div {
     }
     .page-header {
         flex-flow: column nowrap;
+        padding-bottom: 60px;
     }
     .logo {
         order: -1;
     }
     .post .resume li::before {
         content: "\2022";
+    }
+    .what {
+        display: block;
+    }
+    .menu {
+        margin-top: 10px;
     }
 }
 
@@ -785,10 +793,10 @@ ul.projects li {
     list-style: none;
 }
 
-.projects p{
+.projects p {
     margin: 10px 0px;
 }
 
-.projects img{
+.projects img {
     border: 1px solid black;
 }
