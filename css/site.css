@@ -27,11 +27,6 @@ a:hover {
     color: var(--accent);
 }
 
-.page {
-    min-height: 100%;
-    margin: 0 auto -40px auto;
-    max-width: 50em;
-}
 
 footer, .page:after {
     height: 40px;
@@ -58,7 +53,11 @@ footer, .page:after {
 
 .menu li {
     display: inline;
-    padding-right: 15px;
+
+}
+
+.li-github {
+    padding:0 25px;
 }
 
 .menu li ul {
@@ -780,6 +779,7 @@ footer div {
         content: "\2022";
     }
 }
+
 
 ul.projects {
     padding:  0px;
