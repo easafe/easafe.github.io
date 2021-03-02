@@ -27,7 +27,6 @@ a:hover {
     color: var(--accent);
 }
 
-
 footer, .page:after {
     height: 40px;
 }
@@ -53,11 +52,14 @@ footer, .page:after {
 
 .menu li {
     display: inline;
+}
 
+.menu li a:hover svg {
+    fill: var(--accent)
 }
 
 .li-github {
-    padding:0 25px;
+    padding: 0 25px;
 }
 
 .menu li ul {
@@ -779,9 +781,8 @@ footer div {
     }
 }
 
-
 ul.projects {
-    padding:  0px;
+    padding: 0px;
 }
 
 ul.projects li {
