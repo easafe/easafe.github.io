@@ -4,7 +4,7 @@ title: Notes on Haskell
 tags: [cs]
 ---
 
-Haskell is a statically typed language- famous for cussing Ocaml's lack of purity- whose entire presence on Tiobe index consists of people asking "Why should I learn Haskell?" on stackoverflow. Haskell defining feature is ~~monads~~ its type system (however, make no mistake: [there](http://wiki.portal.chalmers.se/agda/pmwiki.php) [are](http://www.idris-lang.org/) [more](https://coq.inria.fr/) [advanced](http://clean.cs.ru.nl/Clean) [ones](http://shenlanguage.org/), but Haskell got more web scale frameworks than all of those combined). The nice thing about good type systems is that they force you to see _everything_ in term of types. This statement might seem tautological, but once you get rid of weak Java-like static typing and can spot even the type of types- ahem, [kinds](https://wiki.haskell.org/Kind)- things start to make sense in a sort of organized, Category Theory way, so that you can ditch superfluous things like documentation, as you have [all types nicely displayed above the definition of stuff](https://www.haskell.org/haddock/). But what does such type system have that makes it so good and advanced?, may ask you. As always, let's build leg strength starting up from easy steps:
+Haskell is a purely functional language whose entire presence on the Tiobe index consists of people asking "Why should I learn Haskell?" on stackoverflow. Haskell defining feature is ~~monads~~ its type system (however, make no mistake: [there](http://wiki.portal.chalmers.se/agda/pmwiki.php) [are](http://www.idris-lang.org/) [more](https://coq.inria.fr/) [advanced](http://clean.cs.ru.nl/Clean) [ones](http://shenlanguage.org/), but Haskell got more web scale frameworks than all of those combined). The nice thing about good type systems is that they force you to see _everything_ in term of types. This statement might seem tautological, but once you get rid of weak Java-like static typing and can spot even the type of types - ahem, [kinds](https://wiki.haskell.org/Kind) - things start to make sense in a sort of organized, high algebra way so that you can ditch superfluous things like documentation, as you will have [all types nicely displayed above the definition of stuff](https://www.haskell.org/haddock/). But what does such type system have that makes it so good and advanced?, you may ask. As always, let's build leg strength starting up from easy steps:
 
 * Existentially quantified types
 
@@ -39,7 +39,7 @@ See? With state-of-art types we can crudely construct the heterogeneous lists pr
 runST :: forall a. (forall s. ST s a) -> a
 {% endhighlight %}
 
-we also can have variables like virtually every existing language! Take that, LISP macros!
+we also can have variables like virtually every other existing language! Take that, LISP macros!
 
 * Clarity
 
@@ -131,6 +131,18 @@ main = do
   battle Venusaur Charizard
 {% endhighlight %}
 
-Move over simple dynamic dispatch (you, SmallTalk) or no mental overhead dynamic typing- we can play type level Pokemon.
+Move over simple dynamic dispatch (you, SmallTalk) or no mental overhead dynamic typing -- we can play type level Pokemon.
+
+* Lazyness
+
+Another feature only present in Haskell is lazy evaluation. In opposition to nearly every other programming language on this planet, a value (say, a parameter to a function, or some local definition) in Haskell is only evaluated when needed. This means that exceptions, infinite data structures and all other sorts of things that would block up a strictly evaluated language are perfectly fine in Haskell since they are lazy by default. Which leads to highly intuitive code:
+
+{% highlight haskell %}
+cyclic = let x = 0 : y
+             y = 1 : x
+         in  x
+{% endhighlight %}
+
+(Such technique is called ["tying the knot"](https://wiki.haskell.org/index.php?title=Tying_the_Knot). This is not a boomer site so there won't be any marriage jokes. I hope in fact you do love your spouse)
 
 Summing up, Haskell is de facto practical man's language. While its use is best advised where cheap PHP hosting is currently employed, its advanced type system can help you leverage all kinds of [abstract nonsense](https://en.wikipedia.org/wiki/Category_theory).
