@@ -31,7 +31,7 @@ heteroList :: [ShowBox]
 heteroList = [SB (), SB 5, SB True]
 {% endhighlight %}
 
-See? With state-of-art types we can crudely construct the heterogeneous lists present in every single dynamic language out-of-the-box. So forth, if we turn on the nice extension RankNTypes,
+See? With state of the art types we can crudely construct the heterogeneous lists present in every single dynamic language out-of-the-box. So forth, if we turn on the nice extension RankNTypes,
 
 {% highlight haskell %}
 {-# LANGUAGE RankNTypes #-}
