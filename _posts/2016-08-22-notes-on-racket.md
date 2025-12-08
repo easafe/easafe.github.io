@@ -4,7 +4,7 @@ title: Notes on Racket
 tags: [cs]
 ---
 
-The Racket language belongs to the LISP family. The main difference between LISP and other languages is that you can name like-this, as opposed to likeThis (or, even worse, like_this), and all operators all prefix. That and homoiconicity. Homoiconicity is a fancy name for "code as data", i.e., LISP code can be manipulated as any other data structure. Such manipulation is achieved by the use of macros- functions that receive code and output code, which in some cases might [as well be black magic](http://www.greghendershott.com/fear-of-macros/).
+The Racket language belongs to the LISP family. The main difference between LISP and other languages is that you can name like-this, as opposed to likeThis (or, even worse, like_this), and all operators all prefix. And of course, homoiconicity. Homoiconicity is a fancy name for "code as data", i.e., LISP code can be manipulated as any other data structure. Such manipulation is achieved by the use of macros: functions that receive code and output code, which in some cases might [as well be black magic](http://www.greghendershott.com/fear-of-macros/).
 
 But let's not get ahead of ourselves. Shall we begin with a simple function?
 
@@ -30,7 +30,7 @@ But let's not get ahead of ourselves. Shall we begin with a simple function?
            init))])))
 {% endhighlight %}
 
-We have here a highlight of some nice Racket features: named let construct, which declares a function and subsequently calls it; arity based function dispatch with case-lambda; and the convention of defining functions to operate on different arities, say, + 2 3 or + 2 3 4 5 6 7 (see also [apply](https://docs.racket-lang.org/reference/procedures.html#%28def._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._apply%29%29), the ultimate uncurryer). We can also, however, see the horrible features: everything sort of blends together since the syntax is so regular; sometimes, deeply nested ))))), which you will get with [let, let* and their friends](https://docs.racket-lang.org/reference/let.html), are next to impossible to digest. But simple-function is just the foldl function renamed. Can we get something more spicy?
+We have here a highlight of some nice Racket features: the named let construct, which declares a function and subsequently calls it; arity based function dispatch with case-lambda; and the convention of defining functions to operate on any number of parameters, say, + 2 3 or + 2 3 4 5 6 7 (see also [apply](https://docs.racket-lang.org/reference/procedures.html#%28def._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._apply%29%29), the ultimate uncurryer). We can also, however, see the not so nice features: everything sort of blends together since the syntax is so regular; sometimes, deeply nested ))))), which you will get with [let, let* and their friends](https://docs.racket-lang.org/reference/let.html), are next to impossible to digest. But simple-function is just the foldl function renamed. Can we get something spicier?
 
 {% highlight racket %}
 (define-syntax (define-simple-macro stx)
@@ -42,7 +42,7 @@ We have here a highlight of some nice Racket features: named let construct, whic
           [pattern . body]))]))
 {% endhighlight %}
 
-define-syntax is the same as define, only for macros. The reader, who always completes all parts noted with "left as exercise to the reader", have it already figured out for sure and thus must be getting bored. More examples?
+define-syntax is the same as define, only for macros. You, the reader, who always complete the sections with "left as exercise to the reader", have already figured it out and for sure are getting bored. More examples?
 
 {% highlight racket %}
 (begin-for-syntax
@@ -149,4 +149,4 @@ Multiple returns are really neat, huh? What about pattern matching as a library 
 
 {% endhighlight %}
 
-In conclusion, Racket is a nice, expressive, ultra dynamic LISP with Super Cow Powers. I recommend reading the [official racket repository](https://github.com/racket/racket/), whence all our examples were taken, as a starting guide.
+In conclusion, Racket is a nice, expressive, ultra dynamic LISP with Super Cow Powers. I recommend reading the [official racket repository](https://github.com/racket/racket/), whence all our examples were taken from, as a starting guide.
